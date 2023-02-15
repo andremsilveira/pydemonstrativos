@@ -14,3 +14,12 @@ git clone https://github.com/andremsilveira/pydemonstrativos
 - File structure for PyPI packages
 - Setup with package informations
 - License example
+## Example
+```
+pip install pydemonstrativo
+from pydemonstrativo import CVM
+
+CVM.about()
+links = CVM.create_links_api(2012, 2021)
+print(links)
+```
