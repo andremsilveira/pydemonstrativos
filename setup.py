@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     readme = fh.read()
 
 setup(name='pydemonstrativos',
-    version='0.0.1',
+    version='0.0.3',
     url='https://github.com/andremsilveira/pydemonstrativos',
     license='MIT License',
     author='Andre Silveira',
